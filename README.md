@@ -24,3 +24,4 @@ In order to use it for your project, following steps are need to be done:
 - https://stackoverflow.com/questions/63245342/confused-over-ruleset-files-vs-editorconfig-files
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/EnableConfiguration.md
+- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/Configuration.md
