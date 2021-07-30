@@ -542,7 +542,6 @@
     <Rule Id="IDE0054" Action="Error" />
     <Rule Id="IDE0056" Action="Error" />
     <Rule Id="IDE0057" Action="Error" />
-    <Rule Id="IDE0058" Action="Error" />
     <Rule Id="IDE0059" Action="Error" />
     <Rule Id="IDE0060" Action="Error" />
     <Rule Id="IDE0061" Action="Error" />
@@ -581,7 +580,7 @@
     <Rule Id="VSTHRD110" Action="None" />
   </Rules>
   <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
-    <Rule Id="SA0001" Action="Error" />
+    <Rule Id="SA0001" Action="Hidden" />
     <Rule Id="SA0002" Action="Error" />
     <Rule Id="SA1000" Action="Error" />
     <Rule Id="SA1001" Action="Error" />
@@ -649,7 +648,7 @@
     <Rule Id="SA1136" Action="Error" />
     <Rule Id="SA1137" Action="Error" />
     <Rule Id="SA1139" Action="Error" />
-    <Rule Id="SA1200" Action="Error" />
+    <Rule Id="SA1200" Action="None" />
     <Rule Id="SA1201" Action="Error" />
     <Rule Id="SA1202" Action="Error" />
     <Rule Id="SA1203" Action="Error" />
@@ -714,7 +713,7 @@
     <Rule Id="SA1518" Action="Error" />
     <Rule Id="SA1519" Action="Error" />
     <Rule Id="SA1520" Action="Error" />
-    <Rule Id="SA1600" Action="Error" />
+    <Rule Id="SA1600" Action="None" />
     <Rule Id="SA1601" Action="Error" />
     <Rule Id="SA1602" Action="Error" />
     <Rule Id="SA1604" Action="Error" />
@@ -742,7 +741,7 @@
     <Rule Id="SA1626" Action="Error" />
     <Rule Id="SA1627" Action="Error" />
     <Rule Id="SA1629" Action="Error" />
-    <Rule Id="SA1633" Action="Error" />
+    <Rule Id="SA1633" Action="Hidden" />
     <Rule Id="SA1634" Action="Error" />
     <Rule Id="SA1635" Action="Error" />
     <Rule Id="SA1636" Action="Error" />
