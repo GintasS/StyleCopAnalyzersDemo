@@ -19,6 +19,19 @@ In order to use it for your project, following steps are need to be done:
 - You can configure different rules for tests.
 - You can also configure different rules via .editorconfig (using yellow lightbulb when hovering above code and configuring a severity for a specific rule). This file overrules other rules. More info: https://stackoverflow.com/questions/63245342/confused-over-ruleset-files-vs-editorconfig-files
 
+## Difference between Sonar and StyleCop
+
+https://medium.com/@michaelparkerdev/linting-c-in-2019-stylecop-sonar-resharper-and-roslyn-73e88af57ebd
+
+Quote from Michael Parker:
+> Sonar is, IMO, not a competitor to Stylecop, it is designed for a different purpose and can be used alongside Stylecop. It does deeper analysis of your code than stylecop, so it is (warning: over-generalisation!) less concerned with where you put your braces and more concerned with cyclomatic complexity. 
+> 
+> You can use both.
+Sonar does NOT have automatic fixes for its errors, which might annoy some people as it purely tells you what’s wrong, but doesn’t help you fix it.
+>
+> Sonar DOES have the ability to rate your code cleanliness, host a central server, track your code over time by integrating into CI. If you want a simple linter with automatic > fixes, StyleCop is what you want. If you want a higher level tracking system for how complex your codebase is over time, and maybe even comparing codebases between teams, and > tracking technical debt, Sonar is what you want. We intend to use both.
+
+
 ## Sources:
 - https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2019
 - https://stackoverflow.com/questions/63245342/confused-over-ruleset-files-vs-editorconfig-files
