@@ -12,6 +12,7 @@ In order to use it for your project, following steps are need to be done:
 4. Alternatively, if you want to use a single .ruleset file in your Solution, you can use<br>
    ```<CodeAnalysisRuleSet>..\Solution items\YourRulesetName.ruleset</CodeAnalysisRuleSet>```. <br>
    Create a Solution items root folder first and place the .ruleset file there. Also, add it as a file inside Visual Studio.
+5. Add ```<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>``` to every .csproj so that some rules (that should make errors on build) wouldn't be ignored.
 6. Configure individual rules by clicking on .ruleset file two times.
 7. When done, rebuild a solution.
 8. You should be able to see changes.
