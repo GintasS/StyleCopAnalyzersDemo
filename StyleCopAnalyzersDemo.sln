@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleCopAnalyzersDemo", "StyleCopAnalyzersDemo\StyleCopAnalyzersDemo.csproj", "{218D07B5-76B5-43C2-8B7E-83F1B8D7D7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StyleCopAnalyzersDemo", "StyleCopAnalyzersDemo\StyleCopAnalyzersDemo.csproj", "{218D07B5-76B5-43C2-8B7E-83F1B8D7D7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{0C0F7231-7A18-4CC8-8E95-8193875597D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{1BD8C593-01AE-4EA7-A67B-6C8D6AC88236}"
+	ProjectSection(SolutionItems) = preProject
+		Solution items\StyleCopAnalyzers.ruleset = Solution items\StyleCopAnalyzers.ruleset
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{218D07B5-76B5-43C2-8B7E-83F1B8D7D7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{218D07B5-76B5-43C2-8B7E-83F1B8D7D7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{218D07B5-76B5-43C2-8B7E-83F1B8D7D7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0F7231-7A18-4CC8-8E95-8193875597D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0F7231-7A18-4CC8-8E95-8193875597D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0F7231-7A18-4CC8-8E95-8193875597D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0F7231-7A18-4CC8-8E95-8193875597D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
