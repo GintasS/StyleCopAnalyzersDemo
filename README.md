@@ -6,20 +6,20 @@ This is a demo project to demonstrate how does the StyleCopAnalyzers NuGet packa
 
 In order to use it for your project, following steps are need to be done:
 
-1. Install following NuGet packages for every project where you want to enforce the rules:
+1. Install following **NuGet** packages for every project where you want to enforce the rules:
    -  ```StyleCop.Analyzers``` - **(must)**, so that StyleCop rules would work.
    -  ```SonarAnalyzer.CSharp``` - **(optional)**, only if you want to include SonarQube rules.
-2. Create a .ruleset file and place it inside your project/solution folder.
-3. Add these properties to a .csproj file (for every project where you want to enforce the rules), inside the first PropertyGroup: 
+2. Create a ```.ruleset``` file and place it inside your project/solution folder.
+3. Add these properties to a ```.csproj``` file (for every project where you want to enforce the rules), inside the first ```PropertyGroup```: 
    - ```<CodeAnalysisRuleSet>YourRulesetName.ruleset</CodeAnalysisRuleSet>``` - to include your ruleset.
    - ```<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>``` - to enforce some rules that are being ignored by Visual Studio.
-4. Alternatively, if you want to use a single .ruleset file in your Solution, you can use<br>
+4. Alternatively, if you want to use a single ```.ruleset``` file in your Solution, you can use<br>
    ```<CodeAnalysisRuleSet>..\Solution items\YourRulesetName.ruleset</CodeAnalysisRuleSet>```. <br>
    Create a ```Solution items``` root folder first and place the .ruleset file there.<br>
    Also place the ruleset inside Visual Studio's solution folder named ```Solution items```.
-5. Configure individual rules by clicking on .ruleset file two times.
+5. Configure individual rules by clicking on ```.ruleset``` file two times.
 6. When done, rebuild the solution.
-7. You should be able to see Errors/Warnings/Information messages in Error List Window.
+7. You should be able to see **Errors/Warnings/Information messages in Error List Window**.
 
 ## Extra:
 - You can configure additonal properties in stylecop.json.
