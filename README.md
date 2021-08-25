@@ -40,9 +40,11 @@ Sonar does NOT have automatic fixes for its errors, which might annoy some peopl
 
 
 ## Sources:
+- https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019
 - https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2019
 - https://stackoverflow.com/questions/63245342/confused-over-ruleset-files-vs-editorconfig-files
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers
+- https://github.com/SonarSource/sonar-dotnet
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/EnableConfiguration.md
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/Configuration.md
 - https://github.com/gitextensions/gitextensions/commit/8d2d71ba426dec75e3df2bd3438cbbdcc7581da6#diff-e7e1921c2348699ea66076964a404647435cd2c7550441c3c7a8a156d2826bd1
