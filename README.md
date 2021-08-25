@@ -1,6 +1,7 @@
 # StyleCopAnalyzersDemo
 
-This is a demo project to demonstrate how does the StyleCopAnalyzers NuGet package works.
+This is a demo project that demonstrates StyleCopAnalyzers NuGet package usage for .NET/C# projects.
+You can use StyleCop and SonarAnalyzer both for normal and test projects.
 
 ## Set-up:
 
