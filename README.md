@@ -10,6 +10,8 @@ In order to use it for your project, following steps are need to be done:
 1. Install following **NuGet** packages for every project where you want to enforce the rules:
    -  ```StyleCop.Analyzers``` - **(must)**, so that StyleCop rules would work.
    -  ```SonarAnalyzer.CSharp``` - **(optional)**, only if you want to include SonarQube rules.
+   -  ```Roslynator.Analyzers``` - **(optional)**, to include Roslyn rules.
+   -  ```xunit.analyzers``` - **(optional)**, for tests.
 2. Create a ```.ruleset``` file and place it inside your project/solution folder.
 3. Add these properties to a ```.csproj``` file (for every project where you want to enforce the rules), inside the first ```PropertyGroup```: 
    - ```<CodeAnalysisRuleSet>YourRulesetName.ruleset</CodeAnalysisRuleSet>``` - to include your ruleset.
@@ -40,11 +42,14 @@ Sonar does NOT have automatic fixes for its errors, which might annoy some peopl
 
 
 ## Sources:
-- https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019
-- https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2019
-- https://stackoverflow.com/questions/63245342/confused-over-ruleset-files-vs-editorconfig-files
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers
 - https://github.com/SonarSource/sonar-dotnet
+- https://github.com/JosefPihrt/Roslynator
+- https://github.com/xunit/xunit.analyzers
+- https://docs.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2019
+- https://docs.microsoft.com/en-us/visualstudio/code-quality/using-rule-sets-to-group-code-analysis-rules?view=vs-2019
+- https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview
+- https://stackoverflow.com/questions/63245342/confused-over-ruleset-files-vs-editorconfig-files
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/EnableConfiguration.md
 - https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/Configuration.md
 - https://github.com/gitextensions/gitextensions/commit/8d2d71ba426dec75e3df2bd3438cbbdcc7581da6#diff-e7e1921c2348699ea66076964a404647435cd2c7550441c3c7a8a156d2826bd1
